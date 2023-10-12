@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: 50%;
+    font-size: 16px;
+    background-image:linear-gradient(10deg,#ffa7b1,hsl(246, 100%, 84%),#ffd5a8,#b1ffee,black);
+    animation: animation 5s ease-in-out infinite;
+    background-size:300%  300% ;
+
+
+}
+@keyframes animation {
+    0%{
+        background-position: 100% 50%;
+    }
+    50%{
+        background-position:0 50%;
+    }
+    100%{
+        background-position:    100% 50%;
+    }
+}
+.bus{
+  display: flex;
+  flex-wrap: wrap;
+    max-width: 800px;
+    
+    background-color: white;
+    border:black solid 10px;
+    height:450px;
+    justify-content: space-around;
+    opacity: 0.89;
+    float: right;
+    box-shadow: 70px 50px 100px black ;
+    margin-top: -5%;
+    padding-right: 30px;
+    padding-right: 10px;
+    margin-right: 40px;
+}
+.title{
+    font-family: serif;
+    font-size:xx-large;
+    color: aliceblue;
+    background: #000;
+    width: 20%;
+    padding-left: 10%;
+    margin-top: 50px;
+}
+h1{
+    height: 22%;
+    font-style: italic;
+    font-size: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background: #000;
+    margin-top: 0%;
+    color: aliceblue;
+}
+.seat[type="checkbox"]{
+    appearance: none;
+    margin: 10px;
+    padding: 20px;
+      height:3%;
+     width: 1%;
+     background-color: blue;    
+    border: solid red 1px;
+ border-color: #000;
+ 
+ 
+}
+
+.seat[type="checkbox"]:checked
+{
+    background-color:palevioletred;
+}
+
+label{
+text-align: center;
+}

@@ -1,0 +1,56 @@
+body{
+    
+}
+.h1{
+    text-align: center;
+   color: black;
+   background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box {
+    display: grid;
+    justify-content:center;
+    border-width: 30px solid;
+    height: 80%;
+    align-content: center;
+    background-image: url(location/img/th\ \(2\).jpg);
+    
+    
+}
+label{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
+}
+input{
+    height: 120%;
+    width: 100%;
+    border: none;
+    border-bottom: 5px black solid;
+    animation-name: input;
+    transition: 2s;
+    background:rgb(251, 194, 255);
+}
+
+
+button{
+    margin-top: 20px;
+    min-width:50px;
+    justify-self:center;
+    background: #000;
+    color: bisque;
+    border-radius: 100px;
+}
+button:hover{
+    border: 5px white solid;
+    box-shadow: 5px 2px 3px grey;
+    cursor: pointer;
+
+}
+
+
+    
+
+
+
+
